@@ -1,0 +1,69 @@
+body {
+  font-family: sans-serif;
+  background-color: #eee1b5;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='53' height='53' viewBox='0 0 200 200'%3E%3Cdefs%3E%3ClinearGradient id='a' gradientUnits='userSpaceOnUse' x1='100' y1='33' x2='100' y2='-3'%3E%3Cstop offset='0' stop-color='%23000' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23000' stop-opacity='1'/%3E%3C/linearGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='100' y1='135' x2='100' y2='97'%3E%3Cstop offset='0' stop-color='%23000' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23000' stop-opacity='1'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cg fill='%23c8bc91' fill-opacity='0.14'%3E%3Crect x='100' width='100' height='100'/%3E%3Crect y='100' width='100' height='100'/%3E%3C/g%3E%3Cg fill-opacity='0.14'%3E%3Cpolygon fill='url(%23a)' points='100 30 0 0 200 0'/%3E%3Cpolygon fill='url(%23b)' points='100 100 0 130 0 100 200 100 200 130'/%3E%3C/g%3E%3C/svg%3E");
+  /* background by SVGBackgrounds.com */
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  align-items: start;
+  justify-content: center;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+
+.grid img {
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+}
+
+.grid figcaption {
+  min-height: 2em;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (min-width: 445px) {
+  .grid img {
+    height: 70vw;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 671px) {
+  .grid img {
+    height: 48vw;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 891px) {
+  .grid img {
+    height: 34vw;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 1111px) {
+  .grid img {
+    height: 27vw;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .grid img {
+    height: 321px;
+  }
+}
+
+.card {
+  margin: 0;
+}
