@@ -1,3 +1,6 @@
+// import "../styles.css";
+
+
 export default function MovieCard(props) {
     const movie = props.movie;
     return (
@@ -9,4 +12,3 @@ export default function MovieCard(props) {
       </figure>
     );
   }
-  

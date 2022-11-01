@@ -11,7 +11,7 @@ body {
   text-align: center;
 }
 
-.grid {
+#movies {
   display: grid;
   align-items: start;
   justify-content: center;
@@ -19,47 +19,47 @@ body {
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
 }
 
-.grid img {
+#movies img {
   object-fit: cover;
   width: 100%;
   height: auto;
 }
 
-.grid figcaption {
+#movies figcaption {
   min-height: 2em;
 }
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (min-width: 445px) {
-  .grid img {
+  #movies img {
     height: 70vw;
   }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 671px) {
-  .grid img {
+  #movies img {
     height: 48vw;
   }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 891px) {
-  .grid img {
+  #movies img {
     height: 34vw;
   }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 1111px) {
-  .grid img {
+  #movies img {
     height: 27vw;
   }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-  .grid img {
+  #movies img {
     height: 321px;
   }
 }
